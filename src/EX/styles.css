@@ -1,0 +1,8 @@
+#ex0{
+    background-image: url("../RAW/0/images/1.svg");
+    background-color:  "hsl(257, 40%, 49%)";
+}
+body{
+    background-color: green;
+    color:red;
+}
