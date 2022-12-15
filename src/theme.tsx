@@ -4,5 +4,5 @@ export default extendTheme({
     colors: {
         brand: theme.colors.whatsapp,
         primary: theme.colors.purple,
-    }
+    },
 });
