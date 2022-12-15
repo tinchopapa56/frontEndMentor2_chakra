@@ -12,8 +12,9 @@ import Ex1Grid from './components/Ex1Grid'
 const Ex1:React.FC = ()=> {
   return (
     // <Box bg="#FFF7F0" p="2em 5%">
-    // <Box bg="#FFF7F0" maxWidth="1200px">
     <Box bg="#FFF7F0">
+    <Box bg="#FFF7F0" maxWidth="1200px" margin="0 auto">
+    {/* <Box bg="#FFF7F0"> */}
 
       <Flex justify="space-between" p="2em 5%">
         <Image w="60px" src={S6} />
@@ -68,10 +69,7 @@ const Ex1:React.FC = ()=> {
 
       
     </Box>
-//    <Stack spacing={8} bg="gray.300">
-//    <Image w="200px" src={I1} />
-//    <Image w="200px" src={I2} />
-//  </Stack>
+  </Box>
   )
 }
 
