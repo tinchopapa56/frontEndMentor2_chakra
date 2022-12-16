@@ -67,11 +67,11 @@ const Ex2:React.FC = ()=> {
       
       {/* FOOTER */}
       <Box pt={32} pb={32} bg="black" color="white">
-        <Container pt={12} maxWidth="1000px" border="3px solid red">
-          <Flex position="relative" justify="space-between" align="flex-start"  fontSize="xl">
+        <Container pt={12} maxWidth="1000px">
+          <Flex ml={12} position="relative" justify="space-between" align="flex-start"  fontSize="xl">
             <Image position="absolute" top="-25%" left="-5%" mb={8} w="250px" objectFit="cover" src={footerLOGO} />
               <Flex direction="column"  flex="1">
-                <Text mb={4} lineHeight={6} w="85%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Text>
+                <Text mb={4} lineHeight={6} w="90%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Text>
                 <Text mb={4}>+1-543-123-4567</Text>
                 <Text mb={4}>example@huddle.com</Text>
               </Flex>
