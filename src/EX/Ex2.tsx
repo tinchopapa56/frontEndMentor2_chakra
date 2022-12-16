@@ -59,16 +59,17 @@ const Ex2:React.FC = ()=> {
       
         {/* LAST BOX container */}
       <Container m="0 auto" maxWidth="1000px" pt={12}>
-        <Box w="65%" position="relative" m="0 auto" mb={8} textAlign="center" p={16} boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
-          <Text mb={6} fontSize="3xl" fontWeight="bold">Ready To Build Your Community?</Text>
+        {/* <Box bg="white" display="inline-block" mb="-50%" z-index="1" position="relative" textAlign="center" p={16} boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px"> */}
+        <Box w="65%" position="relative" bg="white" m="0 auto" mb="-70px" textAlign="center" p={16} boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
+          <Text  mb={6} fontSize="3xl" fontWeight="bold">Ready To Build Your Community?</Text>
           <Button color="white" bg="hsl(322, 100%, 66%)" p={6} w="280px" borderRadius="30px">Get started for free</Button>
         </Box>
       </Container>
       
       {/* FOOTER */}
-      <Box pt={32} pb={32} bg="black" color="white">
+      <Box pt={48} pb={32} bg="black" color="white">
         <Container pt={12} maxWidth="1000px">
-          <Flex ml={12} position="relative" justify="space-between" align="flex-start"  fontSize="xl">
+          <Flex m="0 auto" ml={12} position="relative" justify="space-between" align="flex-start"  fontSize="xl">
             <Image position="absolute" top="-25%" left="-5%" mb={8} w="250px" objectFit="cover" src={footerLOGO} />
               <Flex direction="column"  flex="1">
                 <Text mb={4} lineHeight={6} w="90%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</Text>
