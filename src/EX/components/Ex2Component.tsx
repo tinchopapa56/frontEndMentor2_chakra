@@ -16,7 +16,7 @@ const Ex2Component: React.FC<Props> = ({title, p, img, inverted}) => {
     return(
         <>
         {inverted? (
-            <Flex m="4em auto" w="80%" gap={8} p="4em 0" justify="flex-start" align="center" boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
+            <Flex gap={8} p="4em 0" justify="flex-start" align="center" boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
                 <Image ml={16} mr={16} w="350px" objectFit="cover" src={img} />
                 <Box w="40%">
                     <Text mb={4} fontSize="2xl" fontWeight="bold"> {title}</Text>
@@ -24,7 +24,8 @@ const Ex2Component: React.FC<Props> = ({title, p, img, inverted}) => {
                 </Box>
             </Flex>
         ):(
-            <Flex m="3em auto" w="80%" gap={8} p="4em 0" justify="flex-start" align="center" boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
+            // <Flex m="3em auto" w="80%" gap={8} p="4em 0" justify="flex-start" align="center" boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
+            <Flex m="2.5em 0" gap={8} p="4em 0" justify="flex-start" align="center" boxShadow= "rgba(0, 0, 0, 0.1) 0px 3px 6px 3px" borderRadius="20px">
                 <Box ml={16} w="40%">
                     <Text mb={4} fontSize="2xl" fontWeight="bold"> {title}</Text>
                     <Text fontSize="lg" opacity="0.6">{p}</Text>
